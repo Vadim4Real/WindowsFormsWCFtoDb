@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfToDb", "WcfToDb\WcfToDb.csproj", "{60AEC732-D99A-4340-977B-ADBA1F7298DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsWcfToDb1", "WindowsFormsWcfToDb1\WindowsFormsWcfToDb1.csproj", "{4BD34620-A7AD-4164-8E41-912EAABC47D6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{60AEC732-D99A-4340-977B-ADBA1F7298DF} = {60AEC732-D99A-4340-977B-ADBA1F7298DF}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFConsole", "WCFConsole\WCFConsole.csproj", "{F2A5712B-C2C9-4E34-86FC-C2B0F7F630C9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{60AEC732-D99A-4340-977B-ADBA1F7298DF} = {60AEC732-D99A-4340-977B-ADBA1F7298DF}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60AEC732-D99A-4340-977B-ADBA1F7298DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60AEC732-D99A-4340-977B-ADBA1F7298DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60AEC732-D99A-4340-977B-ADBA1F7298DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60AEC732-D99A-4340-977B-ADBA1F7298DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BD34620-A7AD-4164-8E41-912EAABC47D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BD34620-A7AD-4164-8E41-912EAABC47D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BD34620-A7AD-4164-8E41-912EAABC47D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BD34620-A7AD-4164-8E41-912EAABC47D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2A5712B-C2C9-4E34-86FC-C2B0F7F630C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2A5712B-C2C9-4E34-86FC-C2B0F7F630C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2A5712B-C2C9-4E34-86FC-C2B0F7F630C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2A5712B-C2C9-4E34-86FC-C2B0F7F630C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE612E40-BDBC-4272-86F8-366A995960AC}
+	EndGlobalSection
+EndGlobal
